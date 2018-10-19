@@ -207,7 +207,6 @@
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-client</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
@@ -257,6 +256,11 @@
 			<groupId>org.josso</groupId>
 			<artifactId>josso-default-passwordgenerator</artifactId>
 			<version>${josso.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.vaadin.addons</groupId>
+			<artifactId>dcharts-widget</artifactId>
+			<version>1.7.0</version>
 		</dependency>
 	</dependencies>
 
